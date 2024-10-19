@@ -1,0 +1,321 @@
+
+  
+  .main-content, .info-section {
+    width: 100%;
+    max-width: 1066px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .slogan {
+    background: linear-gradient(90deg, rgba(0, 150, 255, 0.28) 0%, rgba(128, 128, 215, 0.5) 100%);
+    color: #7127ff;
+    margin: 5%;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 40px;
+    width: 100vw;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content, .info-section {
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+  
+    .headline h1, .headline h2 {
+      font-size: 2em;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .text-description p, .headline p {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .slogan {
+      font-size: 1.5em;
+      box-sizing: border-box !important;
+      width: 100vw;
+    }
+  
+    .container {
+      width: 60%;
+      justify-content: center;
+      align-content: center;
+    }
+  
+    .info-card {
+      width: 80%;
+      margin: 20px;
+    }
+  
+    .divider {
+      width: 60%;
+      align-content: center;
+      margin-left: 80px;
+    }
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.png');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-attachment: fixed; /* Para que la imagen se mantenga fija */
+  }
+  /* Contenedor MAIN principal */
+  .main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .headline, .text-description, .divider, .slogan {
+    margin-bottom: 20px;
+  }
+  /* Sección 1: Pymes */
+  .column {  /* Este también aplica en la sección 3 */
+    flex: 1;
+    margin: 0 10px;
+  }
+  .headline h1 {
+    font-size: 60px;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  
+  }
+  .highlight { /* Este también aplica en la sección 3 */
+    color: rgba(0, 150, 255, 1);
+  }
+  .text-description p, .headline p { /* Este también aplica en la sección 3 */
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 20px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  } 
+  .divider img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+  }
+  .main-content, .info-section {
+    width: 100%;
+    max-width: 1066px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Sección 2: Slogan */
+  .slogan {
+      background: linear-gradient(90deg, rgba(0, 150, 255, 0.28) 0%, rgba(128, 128, 215, 0.5) 100%);
+      color: #7127ff;
+      margin: 5%;
+      letter-spacing: 5px;
+      font-weight: 600;
+      font-size: 40px;
+      width: 100vw; /* Ancho completo de la ventana de visualización */
+      padding: 50px 0; /* Espacio superior e inferior */
+      text-align: center;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      box-sizing: border-box; 
+  }
+  
+  /* Sección 3: Coaches */
+  .container-coaches {
+    position: relative;
+    width: 500px; 
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  /* Conjunto de imágenes de la segunda sección */
+  .image {
+    position: absolute;
+  }
+  
+  .image1 {
+    top: 50px;
+    left: 20px;
+    width: 200px; 
+    height: auto;
+  }
+  
+  .image2 {
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    height: auto;
+  }
+  
+  .image3 {
+    top: 200px;
+    left: 300px;
+    width: 200px; 
+    height: auto;
+  }
+  .headline h2 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cta-button {
+    background-color: #0096ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins';
+  }
+  /* Sección 4: Cards */
+  .info-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .info-card {
+    flex: 1;
+    padding: 40px;
+    background: rgba(0, 150, 255, 0.1);
+    border-radius: 30px;
+    text-align: left;
+  }
+  
+  .section-heading {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .section-benefits {
+    color: #5800ff;
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .section-details {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .section-prompt {
+    font-family: 'Roboto' !important;
+    margin: 20px 0;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  
+  .register-button, .join-coach-button {
+    background-color: #7127ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins';
+  }
+  
+  
+  /* Estilo para la flecha */
+  .arrow-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    color: rgba(0, 150, 255, 1);
+    text-align: center;
+    line-height: 50px;
+    font-size: 70px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+  
+  /* Estilo para mostrar la flecha cuando se hace scroll */
+  .show {
+    display: block;
+  }
+  
+  
+  /* Media Queries: Esto permite aplicar estilos específicos a diferentes tamaños y características de pantalla. Esto se utiliza para crear diseños responsivos que se adapten a diferentes dispositivos, como móviles, tablets y computadoras de escritorio. Las media queries son fundamentales para garantizar que tu sitio web se vea bien y funcione correctamente en una amplia variedad de dispositivos.  */
+  @media (max-width: 768px) {
+   
+    .row {
+    display : flex ;
+    flex-direction : column;
+    }
+  
+      
+  /* media de la página principal */
+    .main-content, .info-section, .form-section {
+          flex-direction: column;
+          align-content: center;
+          justify-content: center;
+      }
+  
+      .headline h1, .headline h2 {
+          font-size: 2em;
+          text-align: center;
+          justify-content: center;
+      }
+  
+      .text-description p, .headline p {
+          text-align: center;
+          justify-content: center;
+      }
+  
+      .slogan {
+          font-size: 1.5em;
+          box-sizing: border-box !important;
+          width: 100vw; 
+      }
+     .container {
+      width: 60%;
+     justify-content: center;
+     align-content: center;
+     
+     }
+  
+      .info-card {
+          width: 80%;
+          margin: 20px;
+      }
+  
+      .divider {
+          width: 60%;
+          align-content: center;
+          margin-left: 80px;
+      }
+     
+  
+  }

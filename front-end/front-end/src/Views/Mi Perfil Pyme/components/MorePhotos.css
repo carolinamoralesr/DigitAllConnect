@@ -1,0 +1,28 @@
+.MorePhotos {
+  text-align: left;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  background-color: #ffff;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery-photo:hover {
+  transform: scale(1.1);
+}

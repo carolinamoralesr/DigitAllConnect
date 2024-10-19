@@ -1,0 +1,129 @@
+.back-nav{
+    background-color: #ffffff00;
+  }
+  .SobreNosotros {
+    position: relative;
+    font-family: Poppins;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .agranda-letra{
+    align-items: center;
+    position: relative;
+    color: white; 
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    background-color: #7127FF;
+    border-radius: 9999px;
+    border: none; 
+  }  
+  .agranda-letra:hover{
+    background-color: #0096FF;
+  
+  }
+  .cambio-modo{
+    margin: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .switch {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 40px; /* Ajusta el ancho según tu preferencia */
+    height: 20px; /* Ajusta la altura según tu preferencia */
+    background-color: #ccc; /* Color de fondo del switch */
+    border-radius: 50px; /* Crea la forma ovalada */
+    transition: background-color 0.4s ease; /* Animación de cambio de color */
+  }
+  
+  .switch input[type="checkbox"] {
+    opacity: 0; /* Oculta la casilla de verificación */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .switch .slider {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translate(0%, -50%); /* Centra el slider */
+    width: 18px; /* Ajusta el ancho del slider */
+    height: 18px; /* Ajusta la altura del slider */
+    background-color: #fff; /* Color del slider */
+    border-radius: 50%; /* Crea la forma ovalada del slider */
+    transition: left 0.2s ease; /* Animación de movimiento del slider */
+  }
+  
+  /* Estilos para el modo oscuro */
+  .switch input[type="checkbox"]:checked + .slider {
+    left: calc(100% - 20px); /* Mueve el slider a la derecha */
+  }
+  
+  .switch.dark {
+    background-color: #222; /* Color de fondo del switch en modo oscuro */
+  }
+  
+  .switch.dark .slider {
+    background-color: #444; /* Color del slider en modo oscuro */
+  }
+  
+  .bi-sun{
+    font-size: 1.3rem;
+    margin-right:4px;
+  }
+  .sun-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .bi-moon-stars{
+    font-size: 1.1rem;
+    margin-left:4px;
+  }
+  .moon-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .botones{
+    display: flex;
+    gap: 5px;
+    
+  }
+  .ingresa{
+    align-items: center;
+    position: relative;
+    color: black; 
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 9999px;
+    border: 1px #7127FF solid; 
+  }
+  .ingresa:hover{
+    background-color: #0096FF;
+  }
+  .registrate{
+    align-items: center;
+    position: relative;
+    color: white; 
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    background-color: #7127FF;
+    border-radius: 9999px;
+    border: none; 
+  } 
+  .registrate:hover{
+    background-color: #0096FF;
+  }

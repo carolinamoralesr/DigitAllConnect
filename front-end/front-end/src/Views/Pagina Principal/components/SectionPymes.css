@@ -1,0 +1,26 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.column {
+  flex: 1;
+}
+
+.headline {
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.text-description {
+  font-size: 1.1rem;
+}
+
+.divider img {
+  width: 100%;
+  height: auto;
+}

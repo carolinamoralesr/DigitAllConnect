@@ -1,0 +1,22 @@
+/*modo oscuro*/
+body.dark-mode {
+    background-color: #181819;
+    color: #dfdada;
+  }
+  body.dark-mode .ingresa {
+    background-color: #181819;
+    color: white
+  }
+  
+  body.dark-mode #brandLogo {
+    width: 120px; 
+    height: 45px;
+    color: white ;
+  }
+  body.dark-mode #dark-sobreNosotros {
+    color: white;
+  }
+
+  body.dark-mode #registro-coach {
+    color: white;
+  }

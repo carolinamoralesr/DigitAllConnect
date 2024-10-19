@@ -1,0 +1,98 @@
+.texto-titulo {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 3px 5px rgb(100, 100, 100);
+}
+
+.card-registro{  /*estas son las tarjetas*/
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+
+
+.titulo-tarjeta-reg {
+    font-weight: bold;
+}
+  
+#title-req {
+    font-weight: bold;
+    color: #5800FF;
+  
+}
+
+.btn-registro {
+    background-color: #0096ff;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins';
+}
+
+.btn-registro:hover{
+    background-color: #7127FF;
+}
+
+
+.dudas {
+    text-decoration: underline;
+}
+
+.ingreso{
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.dudas{
+    color: #000000;
+    font-weight: bold;
+}
+
+.dudas:hover {
+    color: #5a55d6;
+}
+
+.cuenta{
+    color: #0096ff;
+}
+
+.cuenta:hover{
+    color: #5a55d6;
+}
+
+#Imagen1 {
+    max-width: 28%;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+  
+#Imagen2 {
+    max-width: 28%;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cardreg {
+    border: 1px solid #ccc;
+    padding: 20px; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e3f3ff;
+}
+
+.card-body {
+    padding: 10px;
+}

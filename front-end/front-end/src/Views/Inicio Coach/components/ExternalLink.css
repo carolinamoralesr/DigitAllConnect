@@ -1,0 +1,32 @@
+/* Ajusta el estilo del contenedor de enlaces si es necesario */
+.links-externos {
+  text-align: center; /* Centra los elementos hijos horizontalmente */
+  gap: 100px;
+}
+
+/* Ajusta el estilo de cada enlace */
+.link-externo {
+  display: inline-block; /* Hace que los enlaces se muestren en línea */
+  /*text-align: center;*/ /* Asegura que el contenido dentro del enlace esté centrado */
+  /*margin: 0 50px;*/ /* Espacio entre los enlaces, ajusta según sea necesario */
+}
+
+/* Ajusta el estilo de la imagen dentro del enlace */
+.link-externo-img {
+  width: 200px;
+  height: auto;
+  margin: 30px;
+}
+
+/* Estilo para el hover en la imagen */
+.link-externo:hover .link-externo-imagen {
+  filter: brightness(0.8);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .link-externo-imagen {
+    width: 150px;
+    margin: 1px 0px 1px 5px; /* Reducimos el margen para pantallas más pequeñas */
+  }
+}

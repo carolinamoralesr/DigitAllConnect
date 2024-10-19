@@ -1,0 +1,17 @@
+.drawerPaper {
+  background-color: #f0f0f0;
+  width: 400px;
+}
+
+.button {
+  margin-top: 16px;
+  background-color: #007BFF;
+}
+
+.button:hover {
+  background-color: #00b348;
+}
+
+.textField {
+  margin-bottom: 16px;
+}

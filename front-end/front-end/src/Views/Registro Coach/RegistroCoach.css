@@ -1,0 +1,246 @@
+.registro-coach {
+    position: relative;
+}
+
+.input-error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.TEXTA {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background: rgba(170, 217, 217, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 40px;
+    z-index: 2;
+}
+
+.RegistroCoach h1 {
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+.DatosContrasena {
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.Rectangulo5,
+.Rectangulo9 {
+    margin-bottom: 5px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.Rectangulo1 {
+    background: rgba(0, 149, 255, 0.781);
+    height: 100%;
+    width: 25%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+.Rectangulo1 img {
+    max-width: 90%;
+    margin: 20px;
+    align-self: flex-end;
+}
+
+.RegistroCoach {
+    margin-left: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 115px;
+    
+    position: relative;
+    top: 20px;
+    z-index: 2;
+}
+
+.bolas {
+    width: 278px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.Bola1,
+.Bola2,
+.Bola3 {
+    width: 40px;
+    height: 40px;
+    background: #9091DD;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Linea1,
+.Linea2 {
+    position: absolute;
+    top: 25px;
+    border: 1px solid #9091DD;
+    width: 100px;
+}
+
+.Linea1 {
+    left: 30px;
+}
+
+.Linea2 {
+    left: 150px;
+}
+
+.DatosPersonalesCoach {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 27.50px;
+    
+    padding: 160px 40px;
+    z-index: 2;
+    margin-left: 25%;
+}
+
+.label-form {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    
+    margin-top: 20px;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+.form-control {
+    background: rgba(170, 217, 217, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 40px;
+    z-index: 2;
+}
+
+.DatosContrasena {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .Rectangulo1 {
+        position: static;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .Rectangulo1 img {
+        align-self: center;
+    }
+
+    .DatosPersonalesCoach {
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    .custom-file-upload,
+    .custom-file-upload-FOTO {
+        padding: 10px 0;
+        max-width: 360px;
+    }
+
+    .Bola1,
+    .Bola2,
+    .Bola3 {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Linea1 {
+        left: 30px;
+        width: 95px;
+    }
+
+    .Linea2 {
+        left: 155px;
+        width: 95px;
+    }
+
+    .RegistroCoach {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .TEXTA,
+    .form-control {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+
+    .label-form {
+        padding-left: 20px;
+    }
+
+    .DatosContrasena {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .error-message {
+        margin-left: 20px;
+    }
+}

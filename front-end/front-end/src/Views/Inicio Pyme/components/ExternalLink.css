@@ -1,0 +1,26 @@
+.external-links {
+  text-align: center; /* Centra los elementos hijos horizontalmente */
+  gap: 100px;
+}
+
+.external-link {
+  display: inline-block;
+}
+
+.external-link-image {
+  width: 200px;
+  height: auto;
+  margin: 50px;
+}
+
+.external-link:hover .external-link-image {
+  filter: brightness(0.8);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .external-link-image {
+    width: 150px;
+    margin: 20px; /* Reducimos el margen para pantallas más pequeñas */
+  }
+}

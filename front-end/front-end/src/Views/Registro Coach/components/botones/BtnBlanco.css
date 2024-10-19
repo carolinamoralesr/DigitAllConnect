@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.day-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 60px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #9400ff;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.day-button.selected {
+    background-color: #9400ff;
+    color: #ffffff;
+}
+
+.day-button:hover {
+    background-color: #9400ff;
+    color: #ffffff;
+}

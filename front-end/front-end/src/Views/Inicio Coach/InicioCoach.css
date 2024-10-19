@@ -1,0 +1,50 @@
+
+.portafolio {
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .portafolio {
+      font-size: 1.2em;
+    }
+}
+  
+@media (max-width: 480px) {
+    .portafolio {
+      font-size: 2em; 
+    }
+}
+
+.links-externos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.link-externo{
+    display: inline-block;
+}
+
+
+.links-externos img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .link-externo-img {
+      width: 150px;
+      margin-top: 1px; /* Reducimos el margen para pantallas más pequeñas */
+    }
+  
+    .portafolio {
+      margin-top: 20px; /* Reducimos el margen para pantallas más pequeñas */
+    }
+}

@@ -1,0 +1,72 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('Circulos bonitos.png');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 180px;
+  margin-right: 180px;
+  padding: 0;
+}
+
+.quienes-somos {
+  padding: 10px 180px;
+  margin: 10px;
+}
+
+/* Contenedor principal */
+.container-sobreNosotros {
+  position: relative;
+
+  
+}
+
+/* Imagen principal */
+.imagen1234 {
+  
+  max-width: 50%;
+  
+  padding-top: 50px;
+  justify-content: center;
+}
+
+/* Sección Sobre Nosotros */
+.Sobre-Nosotros {
+  text-align: right;
+  padding-right: 50px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55.20px;
+  padding-top: 50px;
+}
+
+.nombre {
+  color: #7127FF;
+}
+
+.letrasAzules {
+  color: #0096FF;
+}
+
+.titulo-proposito{
+  justify-content: left !important;
+}
+/* Ajustes para teléfonos */
+@media (max-width: 768px) {
+  .container-sobreNosotros {
+    text-align: center;
+  }
+
+  .imagen1 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .Sobre-Nosotros {
+    text-align: left;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+}

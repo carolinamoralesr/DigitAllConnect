@@ -1,0 +1,113 @@
+.profile-containerPyme2{
+  margin-left:200px;
+  margin-right: 200px;
+  font-family: 'Poppins';
+}
+.app2 {
+  display: grid;
+  gap: 1rem;
+  padding: 20px;
+  grid-template-areas:
+  "a a a a a"
+  "b b b c c"
+  "b b b d d"
+  "g g g e e"
+  "f f f f f";
+}
+
+
+.perfil-de-empresa {
+  grid-area: a;
+}
+.CompanyInfo {
+  grid-area: b;
+}
+
+.IncomeInfo {
+  grid-area: c;
+}
+
+.MyPost{
+  grid-area: g;
+}
+.MorePhotos {
+  grid-area: d;
+}
+
+.SimilarStores {
+  grid-area: e;
+}
+
+.buttons {
+  grid-area: f;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .profile-containerPyme2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .app2 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "a a a a a"
+      "b b b b b"
+      "c c c c c"
+      "d d d d d"
+      "e e e e e"
+      "g g g g g"
+      "f f f f f";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-containerPyme2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .app2 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "a a a a a"
+      "b b b b b"
+      "c c c c c"
+      "d d d d d"
+      "e e e e e"
+      "g g g g g"
+      "f f f f f";
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-containerPyme2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .app2 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "a a a a a"
+      "b b b b b"
+      "c c c c c"
+      "d d d d d"
+      "e e e e e"
+      "g g g g g"
+      "f f f f f";
+  }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+  /* Estilos que deseas aplicar para la resolución de 1280x800 */
+  .profile-containerPyme2 {
+    /* Ajusta los márgenes según sea necesario */
+    margin-left: 30px;
+    margin-right: 30px;
+  }}
+
+
+

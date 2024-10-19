@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 0;
+  background-image: url(fondo.png);
+  background-size: cover;
+}
+
+.profile-containerr {
+  margin-left: 180px;
+  margin-right: 180px;
+  font-family: 'Poppins';
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 20px;
+  grid-template-areas:
+    "a a a a"
+    "b b b c"
+    "d d d e"
+    "g g g e"
+    "f f f f";
+}
+
+.profile {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.profile-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.about {
+  grid-area: b;
+}
+
+.habilities {
+  grid-area: c;
+}
+
+.experience {
+  grid-area: d;
+}
+
+.other-profile {
+  grid-area: e;
+}
+
+.education {
+  grid-area: g;
+}
+
+.buttonss {
+  grid-area: f;
+}
+
+@media (max-width: 768px) {
+  .profile-containerr {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .profile-info {
+    align-items: center;
+  }
+
+  .actions-container {
+    justify-content: center;
+  }
+
+  .about,
+  .habilities,
+  .experience,
+  .other-profile,
+  .education,
+  .buttonss {
+    padding: 10px;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+  }
+
+  .profile {
+    padding: 5px;
+  }
+
+  .about,
+  .habilities,
+  .experience,
+  .other-profile,
+  .education,
+  .buttonss {
+    padding: 5px;
+    box-shadow: none;
+  }
+}

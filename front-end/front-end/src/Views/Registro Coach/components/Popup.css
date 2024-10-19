@@ -1,0 +1,25 @@
+
+
+.secundarioo{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 90px;
+        padding-bottom: 20px;
+        padding-right: 60px;
+        box-sizing: border-box;
+}
+
+.BOTONPOP{
+    background-color: #9000ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.BOTONOPCI{
+    background-color: #9000ff;
+}

@@ -1,0 +1,22 @@
+.subtitulo {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .subtitulo {
+    font-size: 1.2em;
+  }
+
+  .card-containerc {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .subtitulo {
+    font-size: 2em;
+  }
+}

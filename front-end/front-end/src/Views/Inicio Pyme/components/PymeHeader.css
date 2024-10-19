@@ -1,0 +1,66 @@
+.coach-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 20px;
+  color: #282c34;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 200px; /* Márgen izquierdo de 200px */
+  margin-right: 200px; /* Márgen derecho de 200px */
+  box-sizing: border-box; /* Ajusta el modelo de caja para incluir padding y border en el ancho */
+}
+
+.pyme-header-container {
+  display: flex;
+  margin: 50px;
+  margin-right: 200px;
+  margin-left: 180px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.App-header .inicio-pyme-titulo {
+  font-size: 60px; /* Tamaño de letra mucho más grande */
+  text-align: right;
+}
+
+.highlight {
+  color: #3a86ff;
+}
+
+.tutorial-icon {
+  width: 400px;
+  height: auto;
+}
+
+.ImgPrincipal {
+  max-width: 150%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .pyme-header-container {
+    display: block; /* Cambiamos a bloque para apilar los elementos en pantallas más pequeñas */
+    text-align: center; /* Centramos el texto */
+    margin: 20px; /* Reducimos el margen para pantallas más pequeñas */
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .tutorial-icon {
+    width: 100%; /* Hacemos que la imagen sea 100% de ancho para adaptarse al contenedor */
+    max-width: 400px; /* Limitamos el tamaño máximo de la imagen */
+    margin: 0 auto; /* Centramos la imagen */
+  }
+
+  .App-header .inicio-pyme-titulo{
+    font-size: 40px; /* Reducimos el tamaño de la fuente para pantallas más pequeñas */
+  }
+}

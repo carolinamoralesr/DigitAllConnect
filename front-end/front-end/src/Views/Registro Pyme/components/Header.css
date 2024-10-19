@@ -1,0 +1,46 @@
+/* src/components/Header.css */
+.container-pyme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative
+}
+
+.RegistraTuPyme {
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+
+  margin-left: 40px;
+}
+
+.bolas-pyme {
+  width: 278px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.Bola1, .Bola2, .Bola3 {
+  width: 40px;
+    height: 40px;
+    background: #9091DD;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-evenly;
+
+}
+
+
+.Linea1, .Linea2 {
+  position: absolute;
+  top: 25px;
+  border: 1px solid #9091DD;
+  width: 100px;
+}
+

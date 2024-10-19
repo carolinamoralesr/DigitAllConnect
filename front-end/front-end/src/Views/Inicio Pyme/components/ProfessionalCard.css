@@ -1,0 +1,71 @@
+.professional-card {
+  background: #9091dd;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 30px;
+  width: 250px;
+  padding: 20px;
+  transition: transform 0.3s;
+  margin: 20px;
+  position: relative;
+  box-sizing: border-box; /* Asegura que el padding y border se incluyan en el ancho total */
+}
+
+.professional-card:hover {
+  transform: scale(1.05);
+}
+
+.professional-card h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.professional-card p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.professional-card .disponibility {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.professional-card .btn-inicio-pyme {
+  font-family: 'Poppins';
+  background: #3a86ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-inicio-pyme{
+  text-decoration: none;
+}
+
+.professional-card .btn-inicio-pyme:hover {
+  background: #265dab;
+}
+
+.image-container {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

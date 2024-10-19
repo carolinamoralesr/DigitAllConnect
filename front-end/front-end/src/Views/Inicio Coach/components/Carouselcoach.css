@@ -1,0 +1,66 @@
+/* Carousel.css */
+.carouselcoach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.cards-container-coach {
+  display: flex;
+  gap: 20px;
+  margin: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.arrow-button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 70px;
+  color: #007bff;
+  transition: color 0.3s;
+  z-index: 1;
+}
+
+.arrow-button:disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+}
+
+.arrow-button:not(:disabled):hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .arrow-button {
+    font-size: 50px;
+  }
+
+  .cards-container-coach {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+  }
+
+  .card-envoltura {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .arrow-button {
+    font-size: 40px;
+  }
+
+  .cards-container-coach {
+    margin: 8px;
+  }
+}

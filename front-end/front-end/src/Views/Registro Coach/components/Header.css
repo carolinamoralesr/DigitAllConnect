@@ -1,0 +1,49 @@
+.container-coach {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.Rectangulo1 {
+    background-color: #6BC7E3;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+.bolas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    /* Ajustar según sea necesario */
+}
+
+.Bola1,
+.Bola2,
+.Bola3 {
+    width: 45px;
+    height: 45px;
+    background: #9091DD;
+    border-radius: 50%;
+    margin: 0 5px;
+    /* Espacio entre las bolas */
+}
+
+.Bola2,
+.Bola3 {
+    filter: blur(2px);
+}
+
+.Linea1,
+.Linea2 {
+    width: 40px;
+    border: 1px solid #9091DD;
+    margin: 0 5px;
+    /* Espacio entre las líneas */
+}

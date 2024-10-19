@@ -1,0 +1,35 @@
+.app-container {
+  text-align: center;
+}
+
+.other-resources {
+  margin-top: 50px;
+}
+
+.external-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.external-link {
+  display: inline-block;
+}
+
+.external-link-image {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .external-link-image {
+    width: 150px;
+    margin: 20px; /* Reducimos el margen para pantallas más pequeñas */
+  }
+
+  .other-resources {
+    margin-top: 20px; /* Reducimos el margen para pantallas más pequeñas */
+  }
+}

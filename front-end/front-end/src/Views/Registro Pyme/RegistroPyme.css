@@ -1,0 +1,286 @@
+.DatosPersonales {
+  padding-top: 10%;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+/* CHECK ERROR CONTRASEÑA */
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.DatosContrasena div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.check {
+  margin-left: 10px;
+}
+
+.check.green {
+  color: green;
+}
+
+.check.red {
+  color: red;
+}
+
+/* contador caracteres */
+.char-count {
+  text-align: center;
+  color: #8138e0;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.DatosPersonales .tit {
+  font-size: calc(1.325rem + .9vw);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.DatosPersonales .form-group label {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-left: 40px;
+  align-items: center;
+  flex-direction: row;
+  white-space: nowrap;
+  margin-right: 600px;
+}
+
+.DatosPersonales .form-control {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 80px;
+  width: 60%;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.DatosPersonales .DatosContrasena {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+.RegistraTuPyme{
+  padding-right: 300px;
+}
+
+/* Estilos para la cuadrícula de botones */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-left: 40px;
+}
+
+.btn-custom {
+  width: 100%;
+  height: 48px;
+  padding: 7px;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9999px;
+  border: 1px solid #7127FF;
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-custom.selected {
+  background-color: #7127FF;
+  color: white;
+}
+
+.Otro {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .DatosPersonales {
+    padding: 20px;
+  }
+
+  .DatosPersonales .tit {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .DatosPersonales .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DatosPersonales .form-group label {
+    padding-left: 0;
+    margin-right: 0;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .DatosPersonales .form-control {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .DatosPersonales .DatosContrasena {
+    padding-left: 0;
+  }
+
+  .button-grid {
+    padding-left: 0;
+  }
+
+  .Otro {
+    padding-left: 0;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .DatosPersonales {
+    padding: 10px;
+  }
+
+  .DatosPersonales .tit {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .DatosPersonales .form-group label {
+    font-size: 14px;
+  }
+
+  .DatosPersonales .form-control {
+    padding: 8px 15px;
+  }
+
+  .DatosPersonales .DatosContrasena {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .button-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+
+  .btn-custom {
+    height: auto;
+    padding: 10px;
+  }
+  .RegistraTuPyme{
+    padding-right: 15px;
+  }
+
+  .Otro {
+    padding-left: 10px;
+  }
+}
+
+/* src/App.css */
+.datos-row {
+  display: flex;
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+}
+
+.rectangulo-container {
+  background: rgba(0, 149, 255, 0.781);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 25%;
+}
+
+.rectangulo1 img {
+  max-width: 90%;
+  margin: 20px;
+  align-self: flex-end;
+}
+
+.main-contenido {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+/* Tablet Styles for App */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .rectangulo-container {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .rectangulo1 img {
+    align-self: center;
+    margin: 20px 0;
+  }
+
+  .main-contenido {
+    padding: 20px;
+  }
+
+  .datos-row {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+
+/* Mobile Styles for App */
+@media (max-width: 480px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .rectangulo-container {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .rectangulo1 img {
+    align-self: center;
+    margin: 20px 0;
+  }
+
+  .main-contenido {
+    padding: 10px;
+  }
+
+  .datos-row {
+    flex-direction: column;
+    margin-left: 0;
+  }
+}

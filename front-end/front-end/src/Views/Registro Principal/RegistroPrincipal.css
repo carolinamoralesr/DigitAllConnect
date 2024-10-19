@@ -1,0 +1,24 @@
+.registro-principal {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('circulo.png');
+  background-size: cover; 
+  background-attachment: fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .hero {
+  text-align: center;
+  padding: 40px 0;
+} */
+
+
+@media (max-width: 768px) {
+  .col-md-9 {
+      width: 100%;
+      padding: 0 15px;
+  }
+}
+
+

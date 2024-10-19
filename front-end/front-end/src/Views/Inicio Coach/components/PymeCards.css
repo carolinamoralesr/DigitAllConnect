@@ -1,0 +1,78 @@
+.pyme-card {
+  font-family: "Poppins";
+  background: #9091dd;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 30px;
+  width: 300px;
+  height: 590px;
+  padding: 20px;
+  transition: transform 0.3s;
+  padding-bottom: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; /* Permite que los hijos sean posicionados relativamente a esta tarjeta */
+}
+
+.pyme-card:hover {
+  transform: scale(1.05);
+}
+
+.nombre-pyme {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.descripcion-pyme {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 20px;
+  text-align: left;
+}
+
+.boton-contacto {
+  font-family: "Poppins";
+  background: #3a86ff;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.pyme-card .boton-contacto:hover {
+  background: #265dab;
+}
+
+.image-container-coach {
+  position: relative;
+  width: 100%; /* Asegura que el contenedor de la imagen ocupe todo el ancho de la tarjeta */
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+
+  margin: 0; /* Asegura que no haya margen */
+  padding: 0; /* Asegura que no haya padding */
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.perfil-imagen {
+  display: block;
+  /* object-fit: fit; */
+  width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+  height: 100%; /* Hace que la imagen ocupe el 100% de la altura del contenedor */
+  object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+  object-position: center;
+}
+
+.pyme-card {
+  margin: 0px;
+  padding: 0px;
+}

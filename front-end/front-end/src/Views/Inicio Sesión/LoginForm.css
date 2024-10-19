@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+/* Estilos globales o de reset (si es necesario) */
+
+/* Contenido específico del LoginForm */
+#email,
+#password {
+  border: 2px solid rgba(52, 152, 219, 0.7);
+  /* Color celeste medio transparente */
+  outline: none;
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  /* Ajustado para un borde más redondeado */
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 15px;
+  /* Ajustado para un espaciado interior adecuado */
+  transition: border .5s;
+  width: 100%;
+  /* Ajusta el ancho según sea necesario */
+  box-sizing: border-box;
+}
+
+.login {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 100px;
+  margin-bottom: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 8px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-screen {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5a31c3;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.control-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#inputField {
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  /* Ajustado para un borde más redondeado */
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 15px;
+  /* Ajustado para un espaciado interior adecuado */
+  transition: border .5s;
+  width: 100%;
+  /* Ajusta el ancho según sea necesario */
+  box-sizing: border-box;
+  /* Asegura que el padding se incluya en el ancho total */
+}
+
+#inputField:focus {
+  border: 2px solid rgba(52, 152, 219, 0.7);
+  /* Color celeste medio transparente */
+  outline: none;
+  /* Quita el contorno predeterminado al enfocar */
+}
+
+.login-field-icon {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.login-field {
+  width: 100%;
+  padding-right: 30px;
+  /* Espacio para el ícono */
+}
+
+.login-field.error-border {
+  border: 1px solid red;
+}
+
+/* Estilos para el botón de inicio de sesión */
+
+.inicia-sesion {
+  border: 2px solid transparent;
+  background: #3498db;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.inicia-sesion:hover {
+  background-color: #2980b9;
+}
+
+/* Estilos para el enlace de recuperación de contraseña */
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+
+.user-type-title {
+  font-size: 16px;
+  color: #565555;
+  margin-top: 19px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.user-type-selector {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-type-selector label {
+  font-size: 14px;
+  color: #5a31c3;
+  margin: 5px 10px;
+}
